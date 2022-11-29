@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./wall.component.scss']
 })
 export class WallComponent implements OnInit {
-
+a:string = "dicat india noida";
+b:string = '10/20/2022';
   constructor() { }
 
   ngOnInit(): void {

@@ -8,6 +8,9 @@ import { WallComponent } from './wall/wall.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MytableComponent } from './mytable/mytable.component';
 import { MypageComponent } from './mypage/mypage.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { LandingComponent } from './landing/landing.component';
+import { ErrorpageComponent } from './errorpage/errorpage.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { MypageComponent } from './mypage/mypage.component';
     WallComponent,
     MytableComponent,
     MypageComponent,
+    NavbarComponent,
+    LandingComponent,
+    ErrorpageComponent,
   ],
   imports: [
     BrowserModule,
