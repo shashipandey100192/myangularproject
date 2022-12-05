@@ -11,6 +11,8 @@ import { MypageComponent } from './mypage/mypage.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LandingComponent } from './landing/landing.component';
 import { ErrorpageComponent } from './errorpage/errorpage.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
+ 
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ErrorpageComponent } from './errorpage/errorpage.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

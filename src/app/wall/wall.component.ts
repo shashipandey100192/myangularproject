@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class WallComponent implements OnInit {
 a:string = "dicat india noida";
 b:string = '10/20/2022';
+getitems:any;
 
 x:number[]=[10,20,50,60,70,80,90,40,50,60,30,20,10];
 
@@ -28,5 +29,19 @@ c:boolean = this.x.length>10
 
   ngOnInit(): void {
   }
+
+ducat=()=>{
+
+
+this.xyz.pop();
+alert("remove item");
+}
+additems = ()=>{
+  this.getitems = prompt("enter name");
+  this.xyz.push(this.getitems);
+
+
+}
+
 
 }
